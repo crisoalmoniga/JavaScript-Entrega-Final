@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Turnos - Peluquería</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1>Reservá tu turno</h1>
+
+  <form id="form-turno">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required />
+
+    <label for="servicio">Servicio:</label>
+    <select id="servicio" required>
+      <option value="">Seleccionar</option>
+      <option value="Corte">Corte</option>
+      <option value="Color">Color</option>
+      <option value="Peinado">Peinado</option>
+    </select>
+
+    <label>Hora:</label>
+    <div class="hora-grupo">
+      <input type="number" id="hora" placeholder="HH" min="0" max="23" required />
+      <span>:</span>
+      <input type="number" id="minuto" placeholder="MM" min="0" max="59" required />
+    </div>
+
+    <button type="submit">Reservar</button>
+  </form>
+
+  <p id="mensaje-confirmacion" class="confirmacion"></p>
+
+  <h2>Turnos reservados</h2>
+  <ul id="lista-turnos"></ul>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
