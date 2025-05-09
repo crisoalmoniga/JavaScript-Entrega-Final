@@ -1,0 +1,6 @@
+[
+    { "nombre": "Juan", "servicio": "Corte", "hora": "12:30" },
+    { "nombre": "Ana", "servicio": "Color", "hora": "13:00" },
+    { "nombre": "Luis", "servicio": "Peinado", "hora": "14:00" }
+  ]
+  

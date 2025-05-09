@@ -135,7 +135,6 @@ ul li {
     border: 1px solid #e1bcbc;
 }
 
-/* Responsive */
 @media (max-width: 480px) {
     form {
         padding: 20px;
